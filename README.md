@@ -14,7 +14,7 @@ A deep learning framework for simultaneous Wilms' tumor segmentation and metasta
 
 <div align="center">
   <a href="./img/main.pdf">
-    <img src="https://via.placeholder.com/800x1000/f8f9fa/6c757d?text=MTC-HSDNet%0APaper%0APreview%0A%0AClick+to+View+Full+PDF" alt="MTC-HSDNet Paper Preview" width="800" />
+    <img src="./img/main.png" alt="MTC-HSDNet Paper Preview" width="800" style="border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
   </a>
   <br>
   <em>Click the image above to view the full paper (PDF)</em>
