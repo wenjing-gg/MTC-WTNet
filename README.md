@@ -1,5 +1,12 @@
 # MTC-HSDNet
 
+[![GitHub stars](https://img.shields.io/github/stars/wenjing-gg/MTC-HSDNet?style=social)](https://github.com/wenjing-gg/MTC-HSDNet/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/wenjing-gg/MTC-HSDNet?style=social)](https://github.com/wenjing-gg/MTC-HSDNet/network/members)
+[![Project](https://img.shields.io/badge/Project-Page-blue)](https://github.com/wenjing-gg/MTC-HSDNet)
+[![arXiv](https://img.shields.io/badge/arXiv-2024.00000-b31b1b.svg)](https://arxiv.org/abs/2024.00000)
+
+**This repository is the official implementation of MTC-HSDNet.**
+
 A Multi-Task Classification and High-resolution Segmentation Deep Network for medical image analysis.
 
 ## Overview
