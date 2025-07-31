@@ -1,4 +1,4 @@
-# MTC-HSDNet
+# MTC-HSDNet: Multi-Task Collaboration and Hierarchical Self-Distillation in a Multi-Level Transformer Fusion Network for Wilms' Tumor Segmentation and Metastasis Prediction
 
 [![GitHub stars](https://img.shields.io/github/stars/wenjing-gg/MTC-HSDNet?style=social)](https://github.com/wenjing-gg/MTC-HSDNet/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/wenjing-gg/MTC-HSDNet?style=social)](https://github.com/wenjing-gg/MTC-HSDNet/network/members)
@@ -7,16 +7,18 @@
 
 **This repository is the official implementation of MTC-HSDNet.**
 
-A Multi-Task Classification and High-resolution Segmentation Deep Network for medical image analysis.
+A deep learning framework for simultaneous Wilms' tumor segmentation and metastasis prediction using multi-task collaboration and hierarchical self-distillation in a multi-level transformer fusion network.
 
 ## Overview
 
-MTC-HSDNet is a deep learning framework that combines multi-task learning for both classification and segmentation tasks on medical images. The network architecture incorporates:
+MTC-HSDNet is a specialized deep learning framework designed for Wilms' tumor analysis, combining multi-task collaboration and hierarchical self-distillation for simultaneous tumor segmentation and metastasis prediction. The network architecture incorporates:
 
-- **Swin Transformer backbone** for feature extraction
+- **Multi-Level Transformer Fusion** for comprehensive feature integration
+- **Hierarchical Self-Distillation** for progressive knowledge transfer
+- **Multi-Task Collaboration** between segmentation and classification tasks
+- **Swin Transformer backbone** for robust feature extraction
 - **Feature Pyramid Network (FPN)** for multi-scale feature fusion
 - **Mixture of Experts (MoE)** for adaptive feature processing
-- **Multi-task learning** with uncertainty weighting
 
 ## Requirements
 
@@ -82,7 +84,7 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @article{mtc-hsdnet,
-  title={MTC-HSDNet: Multi-Task Classification and High-resolution Segmentation Deep Network},
+  title={MTC-HSDNet: Multi-Task Collaboration and Hierarchical Self-Distillation in a Multi-Level Transformer Fusion Network for Wilms' Tumor Segmentation and Metastasis Prediction},
   author={Your Name},
   journal={Your Journal},
   year={2024}
