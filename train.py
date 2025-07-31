@@ -10,10 +10,10 @@ from torch.cuda.amp import GradScaler
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 
-from dataset_old import MyNRRDDataSet
-from WTMNet_MoE import WTMNet as create_model
-from loss import MultiTaskLoss as MultiTaskLoss       
-from utils import train_one_epoch, evaluate
+from data.dataset import MyNRRDDataSet
+from models.mtc_hsdnet import MTC_HSDNet as create_model
+from models.loss import MultiTaskLoss
+from utils.utils import train_one_epoch, evaluate
 
 
 # ════════════════════════════════════════════════════════════════

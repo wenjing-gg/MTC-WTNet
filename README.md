@@ -59,11 +59,33 @@ python train.py --data_path /path/to/your/data --epochs 100 --batch_size 2
 - `--batch_size`: Batch size for training
 - `--freeze_layers`: Whether to freeze backbone layers
 
+## Project Structure
+
+```
+MTC-HSDNet/
+├── models/                 # Core model implementations
+│   ├── mtc_hsdnet.py      # Main MTC-HSDNet architecture
+│   ├── FPN.py             # Feature Pyramid Network
+│   ├── kan.py             # Kolmogorov-Arnold Network components
+│   ├── loss.py            # Multi-task loss functions
+│   └── __init__.py
+├── data/                   # Data loading and preprocessing
+│   ├── dataset.py         # Custom NRRD dataset implementation
+│   └── __init__.py
+├── utils/                  # Utility functions
+│   ├── utils.py           # Training and evaluation utilities
+│   ├── metrics.py         # Evaluation metrics
+│   └── __init__.py
+├── train.py               # Training script
+├── requirements.txt       # Dependencies
+└── README.md
+```
+
 ## Dataset Structure
 
 The expected dataset structure:
 ```
-data/
+your_data/
 ├── train/
 │   ├── 0/  # No metastasis
 │   │   ├── image1.nrrd
