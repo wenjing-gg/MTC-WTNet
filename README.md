@@ -9,7 +9,7 @@
 
 A deep learning framework for simultaneous Wilms' tumor segmentation and metastasis prediction using multi-task collaboration and hierarchical self-distillation in a multi-level transformer fusion network.
 
-## 📄 Paper
+## 📄 Framework
 
 <div align="center">
   <img src="./img/main.png" alt="MTC-HSDNet Paper Preview" width="800" style="border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
