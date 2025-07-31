@@ -4,7 +4,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/wenjing-gg/MTC-HSDNet?style=social)](https://github.com/wenjing-gg/MTC-HSDNet/network/members)
 [![Project](https://img.shields.io/badge/Project-Page-blue)](https://github.com/wenjing-gg/MTC-HSDNet)
 [![arXiv](https://img.shields.io/badge/arXiv-2024.00000-b31b1b.svg)](https://arxiv.org/abs/2024.00000)
-[![PDF](https://img.shields.io/badge/PDF-Paper-red)](./img/main.pdf)
 
 **This repository is the official implementation of MTC-HSDNet.**
 
@@ -13,15 +12,7 @@ A deep learning framework for simultaneous Wilms' tumor segmentation and metasta
 ## 📄 Paper
 
 <div align="center">
-  <a href="./img/main.pdf">
-    <img src="./img/main.png" alt="MTC-HSDNet Paper Preview" width="800" style="border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
-  </a>
-  <br>
-  <em>Click the image above to view the full paper (PDF)</em>
-  <br><br>
-  <a href="./img/main.pdf">
-    <img src="https://img.shields.io/badge/📄_Download-Full_Paper_PDF-red?style=for-the-badge" alt="Download Paper PDF" />
-  </a>
+  <img src="./img/main.png" alt="MTC-HSDNet Paper Preview" width="800" style="border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 </div>
 
 ---
