@@ -11,14 +11,6 @@ MTC-HSDNet is a deep learning framework that combines multi-task learning for bo
 - **Mixture of Experts (MoE)** for adaptive feature processing
 - **Multi-task learning** with uncertainty weighting
 
-## Features
-
-- **Multi-task Learning**: Simultaneous classification and segmentation
-- **3D Medical Image Support**: Designed for 3D medical imaging data (NRRD format)
-- **Advanced Augmentation**: Comprehensive data augmentation pipeline
-- **Uncertainty Weighting**: Adaptive loss balancing between tasks
-- **Knowledge Distillation**: Progressive supervised distillation for improved performance
-
 ## Requirements
 
 See `requirements.txt` for detailed dependencies. Key requirements include:
@@ -76,28 +68,6 @@ data/
     ├── 0/
     └── 1/
 ```
-
-## Model Architecture
-
-The network consists of:
-
-1. **Encoder**: Swin Transformer with progressive feature extraction
-2. **Decoder**: U-Net style decoder for segmentation
-3. **FPN**: Feature Pyramid Network for multi-scale fusion
-4. **MoE**: Mixture of Experts for adaptive processing
-5. **Multi-head**: Separate heads for classification and segmentation
-
-## Loss Functions
-
-- **Classification**: Adaptive Uncertainty Focal Loss
-- **Segmentation**: Combined Dice + Cross-Entropy Loss
-- **Distillation**: Progressive supervised distillation
-- **Multi-task**: Uncertainty-weighted combination
-
-## Metrics
-
-- **Classification**: Accuracy, AUC, Sensitivity, Specificity
-- **Segmentation**: Dice Score, IoU, ASSD, HD95
 
 ## Citation
 
