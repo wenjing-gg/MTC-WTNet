@@ -1,25 +1,25 @@
-# MTC-HSDNet: Multi-Task Collaboration and Hierarchical Self-Distillation in a Multi-Level Transformer Fusion Network for Wilms' Tumor Segmentation and Metastasis Prediction
+# MTC-WTNet: A Multitask Collaboration Framework for Wilms’ Tumor Segmentation and Metastasis Prediction
 
-[![GitHub stars](https://img.shields.io/github/stars/wenjing-gg/MTC-HSDNet?style=social)](https://github.com/wenjing-gg/MTC-HSDNet/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/wenjing-gg/MTC-HSDNet?style=social)](https://github.com/wenjing-gg/MTC-HSDNet/network/members)
-[![Project](https://img.shields.io/badge/Project-Page-blue)](https://github.com/wenjing-gg/MTC-HSDNet)
+[![GitHub stars](https://img.shields.io/github/stars/wenjing-gg/MTC-WTNet?style=social)](https://github.com/wenjing-gg/MTC-WTNet/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/wenjing-gg/MTC-WTNet?style=social)](https://github.com/wenjing-gg/MTC-WTNet/network/members)
+[![Project](https://img.shields.io/badge/Project-Page-blue)](https://github.com/wenjing-gg/MTC-WTNet)
 [![arXiv](https://img.shields.io/badge/arXiv-2024.00000-b31b1b.svg)](https://arxiv.org/abs/2024.00000)
 
-**This repository is the official implementation of MTC-HSDNet.**
+**This repository is the official implementation of MTC-WTNet.**
 
 A deep learning framework for simultaneous Wilms' tumor segmentation and metastasis prediction using multi-task collaboration and hierarchical self-distillation in a multi-level transformer fusion network.
 
 ## 📄 Framework
 
 <div align="center">
-  <img src="./img/main.png" alt="MTC-HSDNet Paper Preview" width="800" style="border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <img src="./img/main.png" alt="MTC-WTNet Paper Preview" width="800" style="border: 2px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 </div>
 
 ---
 
 ## Overview
 
-MTC-HSDNet is a specialized deep learning framework designed for Wilms' tumor analysis, combining multi-task collaboration and hierarchical self-distillation for simultaneous tumor segmentation and metastasis prediction. The network architecture incorporates:
+MTC-WTNet is a specialized deep learning framework designed for Wilms' tumor analysis, combining multi-task collaboration and hierarchical self-distillation for simultaneous tumor segmentation and metastasis prediction. The network architecture incorporates:
 
 - **Multi-Level Transformer Fusion** for comprehensive feature integration
 - **Hierarchical Self-Distillation** for progressive knowledge transfer
@@ -42,8 +42,8 @@ See `requirements.txt` for detailed dependencies. Key requirements include:
 
 1. Clone the repository:
 ```bash
-git clone git@github.com:wenjing-gg/MTC-HSDNet.git
-cd MTC-HSDNet
+git clone git@github.com:wenjing-gg/MTC-WTNet.git
+cd MTC-WTNet
 ```
 
 2. Install dependencies:
@@ -70,9 +70,9 @@ python train.py --data_path /path/to/your/data --epochs 100 --batch_size 2
 ## Project Structure
 
 ```
-MTC-HSDNet/
+MTC-WTNet/
 ├── models/                 # Core model implementations
-│   ├── mtc_hsdnet.py      # Main MTC-HSDNet architecture
+│   ├── mtc_WTnet.py      # Main MTC-WTNet architecture
 │   ├── FPN.py             # Feature Pyramid Network
 │   ├── kan.py             # Kolmogorov-Arnold Network components
 │   ├── loss.py            # Multi-task loss functions
@@ -113,8 +113,8 @@ your_data/
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{mtc-hsdnet,
-  title={MTC-HSDNet: Multi-Task Collaboration and Hierarchical Self-Distillation in a Multi-Level Transformer Fusion Network for Wilms' Tumor Segmentation and Metastasis Prediction},
+@article{mtc-WTnet,
+  title={MTC-WTNet: Multi-Task Collaboration and Hierarchical Self-Distillation in a Multi-Level Transformer Fusion Network for Wilms' Tumor Segmentation and Metastasis Prediction},
   author={Your Name},
   journal={Your Journal},
   year={2024}
